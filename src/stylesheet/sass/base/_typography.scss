@@ -1,0 +1,22 @@
+@use 'variables' as *;
+
+@font-face {
+  font-family: 'SVN-Gilroy';
+  src: url('../../../assets/fonts/fonnts.com-SVNGilroy-Bold.otf')
+    format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SVN-Gilroy';
+  src: url('../../../assets/fonts/fonnts.com-SVNGilroy-Light.otf')
+    format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body {
+  font-family: $font-primary;
+}

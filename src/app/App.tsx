@@ -1,7 +1,13 @@
 import './App.css';
+import DictionaryPage from './pages/home/DictionaryPage';
+import '../stylesheet/sass/style.scss';
 
 function App() {
-  return <></>;
+  return (
+    <>
+      <DictionaryPage />
+    </>
+  );
 }
 
 export default App;

@@ -1,0 +1,50 @@
+@use '../base' as *;
+
+.dictionary-page {
+  .notification-content {
+    padding: 20px;
+
+    .loading {
+      display: flex;
+      justify-content: center;
+    }
+
+    .message {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  .dictionary-list {
+    .list-item {
+      .phonetic-list {
+        text-transform: none;
+      }
+
+      .meaning-list {
+        padding-left: 0px;
+      }
+    }
+  }
+  .meaning-item {
+    .type-word {
+      margin-bottom: 8px;
+      border-bottom: 1px solid $dark-blue-80;
+
+      font-size: $text-lg;
+      font-weight: $font-700;
+      font-style: italic;
+      color: $neutral-color;
+    }
+
+    .meaning-text {
+      margin-bottom: 8px;
+    }
+
+    .definition-list {
+      .definition-item {
+        margin-bottom: 4px;
+      }
+    }
+  }
+}
