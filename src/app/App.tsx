@@ -1,6 +1,6 @@
 import './App.css';
 import DictionaryPage from './pages/home/DictionaryPage';
-import '../stylesheet/css/style.css';
+import '../stylesheet/sass/style.scss';
 
 function App() {
   return (
